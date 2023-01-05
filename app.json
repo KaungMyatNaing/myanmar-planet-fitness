@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Royal Rose Trading",
+    "slug": "Royal-rose-trading",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "white"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mwc.royalrosetrading",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to upload user photo on profile."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.mwc.royalrosetrading"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "335fb84d-0fb9-4c3b-9db7-0bdf18e64b89"
+      }
+    }
+  }
+}
